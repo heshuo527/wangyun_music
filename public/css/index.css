@@ -1,0 +1,160 @@
+.header {
+    width: 100%;
+    height: 87px;
+    background-color: #d43c33;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?3a2xdr');
+    src: url('fonts/icomoon.eot?3a2xdr#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?3a2xdr') format('truetype'),
+        url('fonts/icomoon.woff?3a2xdr') format('woff'),
+        url('fonts/icomoon.svg?3a2xdr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.header-log{
+    font-family: 'icomoon';
+}
+.top-icon {
+    font-family: 'icomoon';
+}
+
+.herder-top {
+    height: 100%;
+    margin: 0 10px;
+
+}
+
+.top-fl {
+    float: left;
+    line-height: 84px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    font-size: 14px;
+}
+
+.top-fr {
+    position: relative;
+    top: 24px;
+    width: 98px;
+    height: 34px;
+    float: right;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #d43c33;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.title {
+    display: flex;
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #dcd9d8;
+}
+
+.title span {
+    flex: 1;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.song-item {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.song-all h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    margin: 14px 10px;
+}
+
+.title-head {
+    float: left;
+    height: 20px;
+    width: 2px;
+    background-color: #d43c33;
+}
+
+.song-list {
+    flex: 1;
+}
+
+.song-list p {
+    width: 90%;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin: 0 auto;
+}
+
+.song-item img {
+    width: 98%;
+}
+
+.song-list span {
+    position: relative;
+    bottom: 90%;
+    float: right;
+    margin-right: 10px;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-shadow: 1px #dcd9d8;
+}
+
+.singer-list h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    margin: 15px 10px;
+}
+.singer-items {
+    float: left;
+    height: 55px;
+    width: 90%;
+}
+.singer-id {
+    margin: 0 15px;
+    font-size: 17px;
+    color: #999;
+}
+.song-name {
+    height: 25px;
+    font-size: 16px;
+} 
+.singer-id {
+    float: left;
+    height: 100%;
+    line-height: 40px;
+}
+.singer {
+    height: 25px;
+    font-size: 14px;
+    color: #999;
+    border-bottom: 1px solid #dcd9d8;
+    line-height: 20px;
+}
+.icon-play {
+    width: 9%;
+    height: 55px;
+    float: right;
+    font-family: 'icomoon';
+    font-size: 20px;
+}
+.icon-play i {
+    line-height: 55px;
+    text-align: center;
+}
+.play-song {
+    width: 1px;
+    height: 1px;
+}

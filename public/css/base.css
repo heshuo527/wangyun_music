@@ -1,0 +1,15 @@
+/* 清除匀速默认的内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 主题色 */
+.style_red {
+    background-color: #d43c33;
+}
+
+/* 让所有斜体  不倾斜 */
+em,i {
+    font-style: normal;
+}
