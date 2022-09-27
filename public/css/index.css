@@ -158,3 +158,10 @@
     width: 1px;
     height: 1px;
 }
+.play-icon {
+    flex: 1;
+    margin-bottom: 20px;
+    font-family: 'icomoon';
+    font-size: 30px;
+    color: rgb(65, 65, 65);
+}

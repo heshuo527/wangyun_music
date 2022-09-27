@@ -1,0 +1,72 @@
+.play {
+    display: none;
+    /* 实现两个盒子一个到上一个到下 */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 667px;
+}
+.play-top {
+    display: flex;
+    /* 实现垂直居中效果 */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+}
+.play-top-icon {
+    position: absolute;
+    left: 5%;
+    font-family: 'icomoon';
+    font-size: 30px;
+}
+
+.play-top span {
+    font-size: 20px;
+    color: black;
+}
+.play-rotate {
+
+    
+}
+.play-rotate img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: -150px;
+}
+
+@-webkit-keyframes rotation {
+
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+
+}
+
+.play-rotate img {
+
+    -webkit-transform: rotate(360deg);
+
+    animation: rotation 10s linear infinite;
+
+    -moz-animation: rotation 10s linear infinite;
+
+    -webkit-animation: rotation 10s linear infinite;
+
+    -o-animation: rotation 10s linear infinite;
+
+}
+.play-bottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
