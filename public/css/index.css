@@ -154,6 +154,20 @@
     line-height: 55px;
     text-align: center;
 }
+.play-items {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #d43c33;
+}
+.play-list {
+    flex: 1;
+    font-family: 'icomoon';
+    font-size: 30px;
+    color: #fff;
+}
 .play-song {
     width: 1px;
     height: 1px;
@@ -164,4 +178,8 @@
     font-family: 'icomoon';
     font-size: 30px;
     color: rgb(65, 65, 65);
+}
+
+.play {
+    display: block;
 }
